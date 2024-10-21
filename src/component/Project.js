@@ -37,7 +37,7 @@ const Project = ({darkMode}) => {
           </div>
         
         </div>
-        <div className={`w-full md:w-full sm:w-full p-10 shadow-2xl rounded-lg cursor-pointer ${darkMode ? 'bg-gray-500 text-white' : 'bg-white'}`} onClick={Todo}>
+        <div className={`w-full md:w-full sm:w-full p-10 shadow-2xl rounded-lg cursor-pointer ${darkMode ? 'bg-gray-500 text-white' : 'bg-white'}`} onClick={quizApp}>
           <img src={Quiz} alt="" />
           <div className='flex items-center space-x-4 justify-center mt-10'>
             <p>HTML</p>
