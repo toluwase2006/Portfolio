@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@keyframes slideUP {
+  from{
+    transform: translateY(50px);
+  }
+  to{
+    transform: translateY(0px);
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.name{
+  animation: slideUP 1s ease;
+}
+
+.occupation{
+  animation: slideUP 2s ease;
+}
+
+.projectBtn{
+  animation: slideUP 3s ease;
+}
+
+.aboutText{
+  animation: slideUP 1S ease;
+}
