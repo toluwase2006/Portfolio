@@ -25,6 +25,10 @@ const skills = () => {
             <i className="fa-brands fa-bootstrap text-gray-400"></i>
             <p>BOOTSTRAP</p>
         </div>
+        <div className='flex items-center justify-center space-x-3 font-semibold border-2 sm:w-36 w-full  border-gray-600 text-center py-4 rounded-md' data-aos="zoom-in-right" data-aos-delay="600" data-aos-duration="2000">
+            <i className="fa-brands fa-bootstrap text-gray-600"></i>
+            <p>REACT JS</p>
+        </div>
         <div className='border-2 border-green-400 font-semibold text-center py-4 sm:w-32 w-full  rounded-md' data-aos="zoom-in-right" data-aos-delay="700" data-aos-duration="2000">Tailwind CSS</div>
       </div>
     </div>
